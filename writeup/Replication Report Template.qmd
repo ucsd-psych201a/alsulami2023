@@ -1,6 +1,6 @@
 ---
-title: "Replication of Study X by Sample & Sample (20xx, Psychological Science)"
-author: "Replication Author[s] (contact information)"
+title: "Reproducability of Enhancement of E-Learning Student’s Performance Based on Ensemble Techniques by Sample & Sample (2023, Electronics)"
+author: "Amy Tan (amyjxtan@gmail.com)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
   html:
@@ -12,14 +12,16 @@ format:
 
 ## Introduction
 
-[No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.  
+The original paper, ["Enhancement of E-Learning Student’s Performance Based on Ensemble Techniques"](https://github.com/ucsd-psych201a/alsulami2023/blob/main/original_paper/Enhancement_of_ELearning_Students_Performance_Based_on_Ensemble_Techniques.pdf), aimed to improve educational data mining, or EDM, specifically in regards to electronic learning (e-learning) since the COVID-19 pandemic saw a surge in E-learning programs. EDM involves developing methods to deal with the different types of data in educational systems to improve students’ learning outcomes. In particular, the researchers sought to predict student performance using decision trees, naive Bayes, and random forests, enhancing the accuracy further through bagging and boosting. Researchers ultimately concluded that most accurate model methods used decision trees, coupled with boosting, resulting in an accuracy of 0.77.
+
+In my project, I sought to reproduce their findings and their visualizations in Python. I anticipated the largest challenges to be implementing the various EDM techniques as I wasn't extremely well-versed in either of them. However, I was confident that the challenge would not prove too difficult, and would be an extremely valuable learning experience. I chose this particular paper to reproduce since it fit into my niche of interests. The work I hope to do in the future involves an intersection of education, cognitive science, and computational tools - this paper provided the opportunity to further my knowledge and skills in how computational tools can and are used to better our education system. My work is available in my [project repository](https://github.com/ucsd-psych201a/alsulami2023/tree/main).
 
 
 ## Methods
 
 ### Power Analysis
 
-Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size.
+Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size. Considerations of feasibility for selecting planned sample size.
 
 ### Planned Sample
 
@@ -27,40 +29,40 @@ Planned sample size and/or termination rule, sampling frame, known demographics 
 
 ### Materials
 
-All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely. Or, quote directly and just point out exceptions to what was described in the original article.
 
-### Procedure	
+### Procedure
 
-Can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+Can quote directly from original article - just put the text in quotations and note that this was followed precisely. Or, quote directly and just point out exceptions to what was described in the original article.
 
 ### Analysis Plan
 
-Can also quote directly, though it is less often spelled out effectively for an analysis strategy section.  The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.  
+Can also quote directly, though it is less often spelled out effectively for an analysis strategy section. The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.
 
-**Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do.
+**Clarify key analysis of interest here** You can also pre-specify additional analyses you plan to do.
 
 ### Differences from Original Study
 
-Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
+The only difference between this reproducibility project and the original paper are the computational tools used. The original paper used WEKA to visualize and perform machine learning/ensemble methods, whereas my project will use Python. Current anticipated packages inlcude [seaborn](https://seaborn.pydata.org/index.html) and [skit-learn](https://scikit-learn.org/stable/) - I do not anticipate this change to make a difference in the findings.
 
 ### Methods Addendum (Post Data Collection)
 
 You can comment this section out prior to final report with data collection.
 
 #### Actual Sample
-  Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+
+Sample size, demographics, data exclusions based on rules spelled out in analysis plan
 
 #### Differences from pre-data collection methods plan
-  Any differences from what was described as the original plan, or “none”.
 
+Any differences from what was described as the original plan, or “none”.
 
 ## Results
-
 
 ### Data preparation
 
 Data preparation following the analysis plan.
-	
+
 ```{r include=F}
 ### Data Preparation
 
@@ -75,20 +77,20 @@ Data preparation following the analysis plan.
 
 ### Confirmatory analysis
 
-The analyses as specified in the analysis plan.  
+The analyses as specified in the analysis plan.
 
 *Side-by-side graph with original graph is ideal here*
 
 ### Exploratory analyses
 
-Any follow-up analyses desired (not required).  
+Any follow-up analyses desired (not required).
 
 ## Discussion
 
 ### Summary of Replication Attempt
 
-Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
+Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.
 
 ### Commentary
 
-Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
+Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt. None of these need to be long.
