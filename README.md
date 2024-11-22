@@ -24,7 +24,9 @@ The data used in this project is `xAPI-Edu-Data.csv`, initially downloaded from 
 
 ## Results and evaluation
 
-
+## References
+- Parts of code adapted from [Umberto Mignozzetti's](https://umbertomig.com/) CSS 201/202 course - umbertomig@ucsd.edu
+  
 ## Future work
 - 
 
