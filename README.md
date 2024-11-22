@@ -3,7 +3,7 @@ Amy Tan
 
 ## Project Overview
 
-This project takes inspiration from the open science movement and consequently attempts to reproduce the results from the 2023 paper, Enhancement of E-Learning Student’s Performance Based on Ensemble Techniques by Abdulkream A. Alsulami, Abdullah S. AL-Malaise AL-Ghamdi, & Mahmoud Ragab (2023, Electronics). 
+This project takes inspiration from the open science movement and consequently attempts to reproduce the results from the 2023 paper, [Enhancement of E-Learning Student’s Performance Based on Ensemble Techniques](https://www.researchgate.net/publication/369489648_Enhancement_of_E-Learning_Student's_Performance_Based_on_Ensemble_Techniques) by Abdulkream A. Alsulami, Abdullah S. AL-Malaise AL-Ghamdi, & Mahmoud Ragab (2023, Electronics). 
 
 
 ## Installation and Setup
@@ -20,7 +20,7 @@ This project takes inspiration from the open science movement and consequently a
   
 ## Data
 ### Source Data
-The data used in this project is `xAPI-Edu-Data.csv`, initially downloaded from where the authors' originally uploaded on [Kaggle][(https://github.com/fivethirtyeight/data/tree/master/redlining](https://www.kaggle.com/datasets/aljarah/xAPI-Edu-Data)), saved into the variable `edu` in the Juypter Notebook. This csv is saved in the `data` folder.
+The data used in this project is `xAPI-Edu-Data.csv`, initially downloaded from where the authors' originally uploaded on [Kaggle](https://www.kaggle.com/datasets/aljarah/xAPI-Edu-Data), saved into the variable `edu` in the Juypter Notebook. This csv is saved in the `data` folder.
 
 ## Results and evaluation
 
