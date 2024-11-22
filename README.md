@@ -1,4 +1,32 @@
-Replication Project Template
-This is a GitHub template to use for replications projects in PSYCH 201a / CSS 204. Create a new repo using this as a template in order to use it.
+# Reproducibility Project of Enhancement of E-Learning Student’s Performance Based on Ensemble Techniques by Alsulami et al. (2023, Electronics)
+Amy Tan
 
-The template contains the replication project template as well as a file called anonymize.py that you can run to remove personally-identifiable information from the data exported by Qualtrics. Just run python anonymize.py to anonymize all Qualtrics csv files in the data directory.
+## Project Overview
+
+This project takes inspiration from the open science movement and consequently attempts to reproduce the results from the 2023 paper, Enhancement of E-Learning Student’s Performance Based on Ensemble Techniques by Abdulkream A. Alsulami, Abdullah S. AL-Malaise AL-Ghamdi, & Mahmoud Ragab (2023, Electronics). 
+
+
+## Installation and Setup
+### Codes and Resources Used
+
+- **Editor Used:**  Anaconda
+- **Python Version:** Python 3.11.5
+
+### Python Packages Used
+
+- **Data Manipulation:** `pandas`
+- **Data Visualization:** `matplotlib`, `pyplot`
+- **Machine Learning:** `sklearn`
+  
+## Data
+### Source Data
+The data used in this project is `xAPI-Edu-Data.csv`, initially downloaded from where the authors' originally uploaded on [Kaggle][(https://github.com/fivethirtyeight/data/tree/master/redlining](https://www.kaggle.com/datasets/aljarah/xAPI-Edu-Data)), saved into the variable `edu` in the Juypter Notebook. This csv is saved in the `data` folder.
+
+## Results and evaluation
+
+
+## Future work
+- 
+
+## License
+[MIT License](https://opensource.org/license/mit/)
