@@ -17,7 +17,7 @@ This project takes inspiration from the open science movement and consequently a
 ### Python Packages Used
 
 - **Data Manipulation:** `pandas`
-- **Data Visualization:** `matplotlib`, `pyplot`
+- **Data Visualization:** `matplotlib`
 - **Machine Learning:** `sklearn`
   
 ## Data
@@ -92,6 +92,7 @@ All categorical variables in the dataset were cleaned and transformed into corre
 
 ## References
 - Parts of code adapted from [Umberto Mignozzetti's](https://umbertomig.com/) CSS 201/202 course - umbertomig@ucsd.edu
+- 
   
 ## Future work
 - 
