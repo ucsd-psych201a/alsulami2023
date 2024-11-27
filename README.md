@@ -3,7 +3,9 @@ Amy Tan
 
 ## Project Overview
 
-This project takes inspiration from the open science movement and consequently attempts to reproduce the results from the 2023 paper, [Enhancement of E-Learning Student’s Performance Based on Ensemble Techniques](https://www.researchgate.net/publication/369489648_Enhancement_of_E-Learning_Student's_Performance_Based_on_Ensemble_Techniques) by Abdulkream A. Alsulami, Abdullah S. AL-Malaise AL-Ghamdi, & Mahmoud Ragab (2023, Electronics), which can also be found in the original_paper folder.
+This project takes inspiration from the open science movement and consequently attempts to reproduce the results from the 2023 paper, [Enhancement of E-Learning Student’s Performance Based on Ensemble Techniques](https://www.researchgate.net/publication/369489648_Enhancement_of_E-Learning_Student's_Performance_Based_on_Ensemble_Techniques) by Abdulkream A. Alsulami, Abdullah S. AL-Malaise AL-Ghamdi, & Mahmoud Ragab (2023, Electronics), which can also be found in the `original_paper` folder.
+
+Aluslami et al. ran 15 experiments with WEKA software, testing traditional data mining/machine learning classifiers separately, and with ensemble methods to examine which models were the best predictors of student performance. They concluded that boosting with decision trees yielded the highest accuracy out of all the experiments. I aimed to reproduce their findings in this project, using Python's skit-learn package.
 
 
 ## Installation and Setup
@@ -89,13 +91,16 @@ All categorical variables in the dataset were cleaned and transformed into corre
 |                          | H            | 2                            |
 
 ## Results and evaluation
+Ultimately, I was unable to reproduce their findings - out of all 15 experiments, I found that boosting with decision trees, naive bayes, and random forests resulted in the most accurate predictions of student performance (.7998). However, it is also worth noting that this combination of ensemble and data mining techniques was *just* better than random forests alone (.7973).
 
 ## References
 - Parts of code adapted from [Umberto Mignozzetti's](https://umbertomig.com/) CSS 201/202 course - umbertomig@ucsd.edu
-- 
+- Alsulami, Abdulkream & AL-Ghamdi, Abdullah & Ragab, Mahmoud. (2023). Enhancement of E-Learning Student’s Performance Based on Ensemble Techniques. Electronics. 12. 1508. 10.3390/electronics12061508. 
   
 ## Future work
-- 
+- Rerun the Juypter Notebook with a different random state to see if/how that impacts models' performances and what model performs the best.
+- Explore applying these models to different datasets to examine performance; apply these models to predict other areas in education, beyond academic success (i.e. reading comprehension, social and emotional learning, critical thinking skills, creativity, problem-solving abilities,etc.).
+- Examine and consider implications and consequences of applying/using these models in education.
 
 ## License
 [MIT License](https://opensource.org/license/mit/)
